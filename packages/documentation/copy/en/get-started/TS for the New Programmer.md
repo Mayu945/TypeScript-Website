@@ -45,7 +45,7 @@ Every language has its own _quirks_ — oddities and surprises, and JavaScript's
   ```js
   const obj = { width: 10, height: 15 };
   // Why is this NaN? Spelling is hard!
-  const area = obj.width * obj.heigth;
+  const area = obj.width * obj.height;
   ```
 
 Most programming languages would throw an error when these sorts of errors occur, some would do so during compilation — before any code is running.
